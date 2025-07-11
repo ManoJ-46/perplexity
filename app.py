@@ -488,7 +488,7 @@ def text_to_sign_mode():
                 for j, letter in enumerate(letters[i:i+cols_per_row]):
                     with cols[j]:
                         image = load_sign_image(letter)
-                        st.image(image, caption=letter, use_column_width=True)
+                        st.image(img, caption=..., use_container_width=True)
         else:
             st.warning("Please enter at least one alphabetic character.")
 
